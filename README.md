@@ -30,6 +30,8 @@ To create a docker container running RabbitMQ
 > 
 > dotnet restore
 
+# Open in VSCode
 > code .
 
+# Run Project
 > dotnet run
