@@ -9,17 +9,25 @@ To create a docker container running RabbitMQ
 
 # create Producer
 > dotnet new console --name Producer
+
 > cd Producer
+>
 > mv Programe.cs Producer.cs
+> 
 > dotnet add package RabbitMQ.Client
+> 
 > dotnet restore
  
 
 # create Consumer
 > dotnet new console --name Consumer
+> 
 > cd Consumer
+> 
 > mv Programe.cs Consumer.cs
+> 
 > dotnet add package RabbitMQ.Client
+> 
 > dotnet restore
 
 > code .
